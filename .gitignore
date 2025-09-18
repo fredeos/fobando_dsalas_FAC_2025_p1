@@ -1,0 +1,48 @@
+# Quartus build output directories
+**/db/
+**/incremental_db/
+**/simulation/
+**/output_files/
+**/greybox_tmp/
+**/tmp/
+
+# Quartus report and log files
+**/*.rpt
+**/*.summary
+**/*.smsg
+**/*.log
+**/*.eqn
+**/*.pin
+**/*.jdi
+
+# Quartus programming files
+**/*.sof
+**/*.pof
+**/*.jic
+**/*.jam
+**/*.hex
+**/*.mif
+**/*.ttf
+
+# Temporary/intermediate HDL files
+**/*.bak
+**/*.qws
+**/*.qar
+**/*.qdf
+**/*.qpf.bak
+**/*.qsf.bak
+
+# Generated simulation output
+**/*.vcd
+**/*.wlf
+**/*.vho
+**/*.vwf
+**/*.fsdb
+
+# OS / editor temp files
+**/*.swp
+**/*.tmp
+**/*~
+**/.DS_Store
+**/Thumbs.db
+
